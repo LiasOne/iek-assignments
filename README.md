@@ -5,4 +5,5 @@
 
 ### Αλγοριθμική και Δομές Δεδομένων
 
-*1ο Μάθημα*: [Δήλωση και αρχικοποίηση](algorithmiki-domes-dedomenon/1-mathima.c)
+*1η Άσκηση*: [Δήλωση και αρχικοποίηση](algorithmiki-domes-dedomenon/1-mathima.c)
+*2η Άσκηση*: [Δήλωση και αρχικοποίηση](algorithmiki-domes-dedomenon/2-mathima.c)
