@@ -36,6 +36,6 @@
 
 ### Αλγοριθμική και Δομές Δεδομένων
 
-*1η Άσκηση*: [Δήλωση και αρχικοποίηση](algorithmiki-domes-dedomenon/1-mathima.c)
+*1η Άσκηση*: [Δήλωση και αρχικοποίηση](1st-semester/algorithmiki-domes-dedomenon/exercises/1-mathima.c)
 
-*2η Άσκηση*: [Δήλωση και αρχικοποίηση](algorithmiki-domes-dedomenon/2-mathima.c)
+*2η Άσκηση*: [Δήλωση και αρχικοποίηση](1st-semester/algorithmiki-domes-dedomenon/exercises/2-mathima.c)
