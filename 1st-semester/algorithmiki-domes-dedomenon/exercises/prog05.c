@@ -8,3 +8,4 @@ int main()
 
 printf("%d μείον %d ίσον %d\n", ten, 2, ten - 2);
 }
+ 
