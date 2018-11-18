@@ -23,5 +23,5 @@ int main()
   // ο συντελεστής 340.75 μετατρέπει τις δραχμές σε ευρώ96
   draxmes = 340.75 * euro;
 
-  printf("Η αξία σε δραχμές είναι: %.2f%c\n", beep, draxmes, beep);
+  printf("%c Η αξία σε δραχμές είναι: %.2f%c. \n", beep, draxmes, beep);
 }
