@@ -2,7 +2,9 @@
 
 #include <stdio.h>
 
-main()
+void florina();
+
+int main()
 {
   //
   printf("Θα καλέσω τη συνάρτηση της Φλώρινας.\n" );
@@ -12,7 +14,7 @@ main()
   printf("Η κλήση της συνάρτησης έγινε.\n");
 }
 
-florina()
+void florina()
 {
   //
   printf("Γεια σας από Φλώρινα\n");
