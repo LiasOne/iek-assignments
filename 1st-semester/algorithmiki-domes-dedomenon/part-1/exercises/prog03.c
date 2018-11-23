@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int main()
+main()
 {
   //
   printf("Θα καλέσω τη συνάρτηση της Φλώρινας.\n" );
