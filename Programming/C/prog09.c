@@ -1,6 +1,5 @@
 //  prog09.c – τυπώνει τα μεγέθη των τύπων δεδομένων
-
-#include <stdio.h>
+#include <stdio.h>  //
 #include <string.h>
 int main()
 {
