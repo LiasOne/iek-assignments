@@ -2,6 +2,7 @@
 
 int main() {
   char can;
+  int end = 0;
   int clientCounter = 0;
   int aCounter = 0;
   int bCounter = 0;
@@ -24,13 +25,16 @@ int main() {
         clientCounter++;
         aCounter++;
         canCounter+= 6;
+
+      case '0':
+        end=1;
       break;
 
-      default:  //Ο αριθμός δεν είναι μεταξύ 1-3
+      default:
         std::cout << "Δέν υπάρχει αυτή η συσκευασία" << '\n';
       break;
     }
-  } while (can!= '0');
+  } while (end==0);
       std::cout << "1) Αγοράστικαν" << aCounter << "τετράδες και" << bCounter << "εξάδες."<< '\n';
       std::cout << "2) Αγοράστικαν" << canCounter << "κουτάκια."<< '\n';
       std::cout << "3) Από το μαγαζί αγόρασαν" << clientCounter << "πελάτες" <<'\n';
