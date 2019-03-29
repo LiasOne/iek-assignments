@@ -4,12 +4,11 @@ using std::cout;
 using std::endl;
 using std::cin;
 
-void readMatrix (int array [3][3], int nRaw, int nCol) {
+void readMatrix (int array[3][3], int nRaw, int nCol) {
   cout << "Δώσε τιμές στον πίνακα: " << endl;
   for (int i = 0; i < nRaw; i++) {
     for (int j = 0; j < nCol; j++)
-      cout << array [i][j] << " ";
-    cout << endl;
+      cin >> array [i][j];
   }
 
   cout << "Ο πίνακας είναι: " << endl;
@@ -43,7 +42,7 @@ int main() {
   int array [3][3];
   int array2 [3][3];
 
-  readMatrix (array, 3,3);
-  newArray (array, array2, 3,3);
+  readMatrix (array,3,3);
+  newArray (array,array2,3,3);
   return 0;
 }
